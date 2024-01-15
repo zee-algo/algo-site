@@ -1,9 +1,67 @@
-import Image from 'next/image'
+import Image from "next/image";
 
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
+      <h2 className="text-customwhite">master heading </h2>
+
+      <div class="">
+        <div className="w-full shadow bg-white rounded">
+          <a href="#!">
+            <img
+              class="rounded-t-lg"
+              src="https://tecdn.b-cdn.net/img/new/standard/nature/184.jpg"
+              alt=""
+              width="100%"
+              height="100%"
+            />
+          </a>
+          <div class="p-6">
+            <span className="text-12px font-normal text-secondryColor capitalize">
+              7 Sep 2020
+            </span>
+            <h3 className="font-bold text-secondryColor text-10px mb-4">
+              {" "}
+              Do you really understand the concept of product value?
+            </h3>
+            <p className="text-secondryColor text-11px font-normal">
+              Society is fragmenting into two parallel realities. In one
+              reality, you have infinite upside and
+            </p>
+            <span className="text-12px font-normal text-secondryColor capitalize">
+              Read More
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonials-card mt-5">
+        <div className="w-full p-6 shadow bg-white rounded">
+          <div class="mb-5">
+            <p className="text-secondryColor text-11px font-normal">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </p>
+          </div>
+          <div className="flex items-center">
+          <div class="rounded-full">
+            <img
+              class="w-20 h-20 rounded-full"
+              src="https://tecdn.b-cdn.net/img/new/standard/nature/184.jpg"
+              alt=""
+              width="100%"
+              height="100%"
+            />
+            </div>
+            <div className="p-5">
+              <h2 className="text-secondryColor text-16px font-semibold leading-5 text-nowrap">Fawad Ahmad</h2>
+              <p className="text-secondryColor text-12px font-normal">Product Designer</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
         <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
           Get started by editing&nbsp;
           <code className="font-mono font-bold">app/page.js</code>
@@ -15,7 +73,7 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            By{' '}
+            By
             <Image
               src="/vercel.svg"
               alt="Vercel Logo"
@@ -26,9 +84,9 @@ export default function Home() {
             />
           </a>
         </div>
-      </div>
+      </div> */}
 
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
+      {/* <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
         <Image
           className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
           src="/next.svg"
@@ -47,7 +105,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{' '}
+            Docs
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
@@ -64,7 +122,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{' '}
+            Learn
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
@@ -81,7 +139,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{' '}
+            Templates
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
@@ -98,7 +156,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{' '}
+            Deploy
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
@@ -107,7 +165,7 @@ export default function Home() {
             Instantly deploy your Next.js site to a shareable URL with Vercel.
           </p>
         </a>
-      </div>
+      </div> */}
     </main>
-  )
+  );
 }
