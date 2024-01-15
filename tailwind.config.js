@@ -17,6 +17,7 @@ module.exports = {
         secondryColor: "#444444", //normal main black
         customWhite: "#FFFFFF",
         customBlack: "#000000",
+        customDarkGreen: "#0A664A",
       },
       fontSize: {
         "10px": "10px",
@@ -47,6 +48,12 @@ module.exports = {
         extrabold: "800",
         "extra-bold": "800",
         black: "900",
+      },
+      colors: {
+        primaryColor: "#1FDBA2",  //green
+        secondryColor: "#444444",  //normal main black
+        customWhite: "#FFFFFF",
+        customBlack: "#000000",
       },
     },
   },
