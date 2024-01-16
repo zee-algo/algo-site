@@ -33,6 +33,7 @@ module.exports = {
         "24px": "24px",
         "26px": "26px",
         "28px": "28px",
+        "38px": "38px",
       },
 
       fontWeight: {
