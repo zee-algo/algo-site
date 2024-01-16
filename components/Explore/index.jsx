@@ -2,19 +2,19 @@ import React from 'react'
 
 const Explore = () => {
   return (
-    <div className='p-4 '>
-      <div className=' bg-gradient-to-r from-[#0A664A] to-primaryColor   flex justify-between mx-auto max-w-[90%] px-8 py-6'>
+    <div className='p-2 '>
+      <div className=' bg-gradient-to-r from-[#0A664A] to-primaryColor  max-w-[100%]  pl-3 pr-0 py-3 mx-1 sm:flex sm:justify-between md:max-w-[90%] md:mx-auto  md:px-4 md:py-6'>
         <div className=''>
-          <p className='text-customWhite text-xl'>
+          <p className='text-customWhite md:text-xl'>
             We’re here to help to grow your business.
           </p>
-          <h3 className='text-customWhite text-2xl font-bold'>
+          <h3 className='text-customWhite pt-1 text-[16px] md:text-2xl font-bold'>
             Looking for the Best IT Business Solutions?
           </h3>
         </div>
-        <div className=' flex  justify-between'>
-          <button className=' p-3 bg-customWhite  rounded-md'>
-            <span className='text-customBlack'>Explore Us</span>
+        <div className=' mt-3 sm:flex sm:pr-2  sm:justify-between'>
+          <button className=' px-4 py-2 md:px-4 bg-customWhite  rounded-md'>
+            <span className=' text-[15px] text-customBlack'>Explore Us</span>
           </button>
         </div>
       </div>

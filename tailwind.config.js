@@ -18,6 +18,8 @@ module.exports = {
         customWhite: "#FFFFFF",
         customBlack: "#000000",
         customDarkGreen: "#0A664A",
+        customGrey:" #F8F8F8",
+        InputGrey:"#888888"                
       },
       fontSize: {
         "10px": "10px",
