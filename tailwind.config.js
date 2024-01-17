@@ -17,6 +17,9 @@ module.exports = {
         secondryColor: "#444444", //normal main black
         customWhite: "#FFFFFF",
         customBlack: "#000000",
+        customBlue: "#405BE6",
+        customOrange: "#EB5C30",
+        customYellow:"#F9D759"
       },
       fontSize: {
         "10px": "10px",

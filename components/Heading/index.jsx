@@ -1,4 +1,6 @@
-export default function Heading(props) {
+import React from "react";
+
+const Heading =(props) => {
     const {heading, title} = props
   return (
     <>
@@ -9,3 +11,5 @@ export default function Heading(props) {
     </>
   );
 }
+
+export default Heading;

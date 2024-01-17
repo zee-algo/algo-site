@@ -1,9 +1,11 @@
-export default function WhatWeDoCard() {
+import React from "react";
+
+const WhatWeDoCard = () => {
   return (
     <>
       <div className="w-full p-6 shadow bg-white rounded">
         <div className="flex">
-          <div class="rounded-full">
+          <div className="rounded-full">
             {/* <img
               class="w-20 h-20 rounded-full"
               src="https://tecdn.b-cdn.net/img/new/standard/nature/184.jpg"
@@ -31,3 +33,5 @@ export default function WhatWeDoCard() {
     </>
   );
 }
+
+export default WhatWeDoCard;

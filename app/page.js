@@ -5,6 +5,11 @@ import BlogCard from "../components/Cards/BlogCard";
 import TestimonialsCard from "../components/Cards/TestimonialsCard";
 import Heading from "../components/Heading";
 import OurWorkPortfolioCard from "../components/Cards/OurWorkPortfolioCard";
+import SubscriptionCard from "../components/Cards/SubscriptionCard";
+import Footer from "../components/Cards/Footer";
+import Counter from "../components/Counter";
+import Explore from "../components/Explore";
+import GetInTouch from "../components/GetInTouch";
 
 export default function Home() {
   return (
@@ -17,9 +22,49 @@ export default function Home() {
       </header>
 
       {/* --------------------- */}
+      {/*--- company subscriptions --- */}
+      {/*---------------------- */}
+
+      <div className="py-10 px-4">
+        <section className="company-subscription py-10">
+          <div className="max-w-screen-xl mx-auto">
+            <div className="grid grid-cols-2 lg:grid-cols-4 gap-10">
+              {[1, 2, 3, 4].map((value , index) => {
+                console.log(index)
+                return (
+                  <div key={index}  >
+                    <SubscriptionCard  index = {index}/>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        </section>
+      </div>
+
+
+ {/* --------------------- */}
+      {/*--- Counter Section --- */}
+      {/*---------------------- */}
+
+<Counter/>
+
+ {/* --------------------- */}
+      {/*--- Explore Section --- */}
+      {/*---------------------- */}
+
+      <Explore/>
+
+
+
+
+
+
+
+      {/* --------------------- */}
       {/*--- what we do section --- */}
       {/*---------------------- */}
-      <section class="what-we-do-section py-10">
+      <section className="what-we-do-section py-10 px-4">
         <div className="max-w-screen-xl mx-auto">
           <div className="grid grid-1">
             <Heading
@@ -42,9 +87,8 @@ export default function Home() {
 
             <div className="grid grid-1 flex items-center justify-center">
               <div className="">
-              <Image src="/CenterImg.png" alt="" width={100} height={100} />
+                <Image src="/CenterImg.png" alt="" width={100} height={100} />
               </div>
-            
             </div>
 
             <div className="grid grid-cols-1 gap-5">
@@ -60,18 +104,20 @@ export default function Home() {
         </div>
       </section>
 
-
       {/* --------------------- */}
       {/*---Our Work Section --- */}
       {/*---------------------- */}
 
-      <section className="Our-work-section py-10">
+      <section className="Our-work-section py-10 px-4">
         <div className="max-w-screen-xl mx-auto">
           <div className="grid grid-1">
-            <Heading heading={"Our Work"} title={"Portfolio that speaks Itself"} />
+            <Heading
+              heading={"Our Work"}
+              title={"Portfolio that speaks Itself"}
+            />
           </div>
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-5">
-            {[1, 2, 3,4].map((value) => (
+            {[1, 2, 3, 4].map((value) => (
               <div key={value}>
                 <OurWorkPortfolioCard key={value} />
               </div>
@@ -80,14 +126,10 @@ export default function Home() {
         </div>
       </section>
 
-
-
-
-
       {/* --------------------- */}
       {/*--- Testimonials section --- */}
       {/*---------------------- */}
-      <section class="testimonials-section py-10">
+      <section className="testimonials-section py-10 px-4">
         <div className="max-w-screen-xl mx-auto">
           <div className="grid grid-1">
             <Heading heading={"Testimonial"} title={"What’s Clients Say"} />
@@ -108,7 +150,7 @@ export default function Home() {
       {/*--- Blog Section --- */}
       {/*---------------------- */}
 
-      <section className="Blog-section py-10">
+      <section className="Blog-section py-10 px-4">
         <div className="max-w-screen-xl mx-auto">
           <div className="grid grid-1">
             <Heading heading={"Blog"} title={"News & Articles"} />
@@ -121,6 +163,22 @@ export default function Home() {
             ))}
           </div>
         </div>
+      </section>
+
+ {/* --------------------- */}
+      {/*--- GeTInTouchSection --- */}
+      {/*---------------------- */}
+
+  <GetInTouch/>
+
+
+
+      {/* --------------------- */}
+      {/*--- Footer Section --- */}
+      {/*---------------------- */}
+
+      <section className="Footer-section pt-10 px-4">
+        <Footer />
       </section>
     </>
   );

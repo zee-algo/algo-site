@@ -1,18 +1,19 @@
-export default function OurWorkPortfolioCard() {
+import React from "react";
+const OurWorkPortfolioCard= () => {
   return (
     <>
-      <div class="">
+      <div className="">
         <div className="w-full bg-white rounded">
           <a href="#!">
             <img
-              class="rounded-t-lg"
+              className="rounded-t-lg"
               src="https://tecdn.b-cdn.net/img/new/standard/nature/184.jpg"
               alt=""
               width="100%"
               height="100%"
             />
           </a>
-          <div class="p-6">
+          <div className="p-6">
             <h3 className="font-bold text-secondryColor text-10px mb-4">
               MIRL ( MEET IN REAL LIFE )
             </h3>
@@ -33,3 +34,6 @@ export default function OurWorkPortfolioCard() {
     </>
   );
 }
+
+
+export default OurWorkPortfolioCard;
