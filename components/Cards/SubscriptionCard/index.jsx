@@ -3,9 +3,9 @@ import data from './data'
 const Subscription = () => {
   return (
     <>
-      <div className='pt-16 pb-10 px-4'>
+      <div className='pt-16 pb-10'>
         <section className='company-subscription py-10'>
-          <div className='max-w-screen-xl mx-auto'>
+          <div className='max-w-screen-2xl mx-auto px-4 lg:py-16 lg:px-12'>
             <div className='grid grid-cols-2 lg:grid-cols-4 gap-10'>
               {data.map((value, index) => {
                

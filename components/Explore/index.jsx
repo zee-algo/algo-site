@@ -2,8 +2,8 @@ import React from 'react'
 
 const Explore = () => {
   return (
-    <div className='p-2 '>
-      <div className=' bg-gradient-to-r from-[#0A664A] to-primaryColor  max-w-[100%]  pl-3 pr-0 py-3 mx-1 sm:flex sm:justify-between md:max-w-[90%] md:mx-auto  md:px-4 md:py-6'>
+    <div className='lg:py-16'>
+      <div className=' bg-gradient-to-r from-[#0A664A] to-primaryColor pl-3 pr-0 py-3  sm:flex sm:justify-between max-w-screen-2xl mx-auto px-4 lg:py-16 lg:px-12 md:py-6'>
         <div className=''>
           <p className='text-customWhite md:text-xl'>
             We’re here to help to grow your business.

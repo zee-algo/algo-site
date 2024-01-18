@@ -35,22 +35,22 @@ export default function Home() {
       {/* --------------------- */}
       {/*--- Counter Section --- */}
       {/*---------------------- */}
-      <div className="py-10">
+      <div className="">
         <Counter />
       </div>
 
       {/* --------------------- */}
       {/*--- Explore Section --- */}
       {/*---------------------- */}
-      <div className="py-10">
+      <div className="">
         <Explore />
       </div>
 
       {/* --------------------- */}
       {/*--- what we do section --- */}
       {/*---------------------- */}
-      <section className="what-we-do-section py-10 px-4">
-        <div className="max-w-screen-xl mx-auto">
+      <section className="what-we-do-section">
+        <div className="max-w-screen-2xl mx-auto py-12 px-4 lg:py-16 lg:px-12">
           <div className="grid grid-1">
             <Heading
               heading={"what we do"}
@@ -93,8 +93,8 @@ export default function Home() {
       {/*---Our Work Section --- */}
       {/*---------------------- */}
 
-      <section className="Our-work-section py-10 px-4">
-        <div className="max-w-screen-xl mx-auto">
+      <section className="Our-work-section">
+        <div className="max-w-screen-2xl mx-auto px-4 lg:py-16 lg:px-12">
           <div className="grid grid-1">
             <Heading
               heading={"Our Work"}
@@ -114,8 +114,8 @@ export default function Home() {
       {/* --------------------- */}
       {/*--- Testimonials section --- */}
       {/*---------------------- */}
-      <section className="testimonials-section py-10 px-4">
-        <div className="max-w-screen-xl mx-auto">
+      <section className="testimonials-section">
+        <div className="max-w-screen-2xl mx-auto px-4 lg:py-16 lg:px-12">
           <div className="grid grid-1">
             <Heading heading={"Testimonial"} title={"What’s Clients Say"} />
           </div>
@@ -135,7 +135,7 @@ export default function Home() {
       {/*--- Blog Section --- */}
       {/*---------------------- */}
 
-      <BlogCard />
+      <BlogCard  />
 
       {/* --------------------- */}
       {/*--- GeTInTouchSection --- */}

@@ -6,7 +6,7 @@ const HeroSection = () => {
   return (
     <>
       <section class="bg-customOffWhiteBG">
-        <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
+        <div class="mx-auto max-w-screen-2xl text-center py-8 px-4 lg:py-16 lg:px-12">
           <div className="hero-heading">
             <h1 class="mb-4 tracking-tight leading-none  text-secondryColor text-4xl font-bold md:text-5xl lg:text-6xl">
               <span className="text-primaryColor">Startup </span> Rely On Our
