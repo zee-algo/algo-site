@@ -14,17 +14,17 @@ const OurWorkPortfolioCard= () => {
             />
           </a>
           <div className="p-6">
-            <h3 className="font-bold text-secondryColor text-10px mb-4">
-              MIRL ( MEET IN REAL LIFE )
+            <h3 className=" text-secondryColor font-semibold text-14px lg:text-15px mb-4">
+              <span className="font-bold">MIRL</span> ( MEET IN REAL LIFE )
             </h3>
-            <p className="text-secondryColor text-11px font-normal">
+            <p className="text-secondryColor text-12px md:text-14px lg:text-16px font-normal">
               The easiest event planning app to help you get together, improve
               communication, And smooth the little obstacles along the way of a
               great gathering. Use this app to enjoy your friends and family in
               many MIRL’s!
             </p>
             <div className="text-center mt-9">
-              <button className=" bg-primaryColor rounded text-customWhite font-normal text-12px py-2 px-6 capitalize">
+              <button className=" bg-primaryColor rounded text-customWhite font-normal text-12px md:text-14px lg:text-16px  py-2 px-6 capitalize">
                 Read More
               </button>
             </div>

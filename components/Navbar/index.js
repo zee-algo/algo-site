@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Navbar() {
   return (
     <>
-      <nav>
+      <nav className="bg-customOffWhiteBG py-5">
         <div className="flex items-center justify-between mx-auto max-w-screen-xl px-10 py-4 shadow bg-white rounded">
           <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
             <Image src="/AlgoLogo.png" alt="" width={100} height={100} />
@@ -32,12 +32,12 @@ export default function Navbar() {
           <div className="hidden w-full md:block md:w-auto">
             <ul className="flex flex-col items-center space-x-4 md:space-x-6 rtl:space-x-reverse md:flex-row">
               <li>
-                <a href="#" className="block py-2 px-3" aria-current="page">
+                <a href="#" className="block py-2 px-3 text-secondryColor text-12px md:text-14px lg:text-16px font-semibold" aria-current="page">
                   Home
                 </a>
               </li>
               <li>
-                <button className="flex items-center justify-between w-full py-2 px-3 text-gray-900">
+                <button className="flex items-center justify-between w-full py-2 px-3 text-secondryColor text-12px md:text-14px lg:text-16px font-semibold">
                   Services
                   <svg
                     className="w-2.5 h-2.5 ms-2.5"
@@ -73,24 +73,24 @@ export default function Navbar() {
                 </div>
               </li>
               <li>
-                <a href="#" className="block py-2 px-3 text-gray-900">
+                <a href="#" className="block py-2 px-3 text-secondryColor text-12px md:text-14px lg:text-16px font-semibold">
                   Blog
                 </a>
               </li>
               <li>
-                <a href="#" className="block py-2 px-3 text-gray-900">
+                <a href="#" className="block py-2 px-3 text-secondryColor text-12px md:text-14px lg:text-16px font-semibold">
                   About Uss
                 </a>
               </li>
               <li>
-                <a href="#" className="block py-2 px-3 text-gray-900">
+                <a href="#" className="block py-2 px-3 text-secondryColor text-12px md:text-14px lg:text-16px font-semibold">
                   Contact Us
                 </a>
               </li>
               <li>
-                <span className="py-2 px-3 ">Have Any Question ?</span>
+                <span className="py-2 px-3 text-secondryColor text-10px md:text-12px lg:text-14px font-semibold">Have Any Question ?</span>
                 <br />
-                <span className="py-2 px-3 ">+92 42 35817113</span>
+                <span className="py-2 px-3 text-primaryColor text-10px md:text-12px lg:text-14px font-semibold">+92 42 35817113</span>
               </li>
             </ul>
           </div>

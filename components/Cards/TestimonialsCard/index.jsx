@@ -4,7 +4,7 @@ const TestimonialsCard = () => {
     <>
       <div className="w-full p-6 shadow bg-white rounded">
         <div className="mb-5">
-          <p className="text-secondryColor text-11px font-normal">
+          <p className="text-secondryColor text-12px md:text-14px lg:text-16px font-normal">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry.
           </p>
@@ -20,10 +20,10 @@ const TestimonialsCard = () => {
             />
           </div>
           <div className="p-5">
-            <h2 className="text-secondryColor text-16px font-semibold capitalize leading-5 text-nowrap">
+            <h2 className="text-secondryColor text-12px md:text-14px lg:text-16px font-semibold capitalize leading-5 text-nowrap">
               Fawad Ahmad
             </h2>
-            <p className="text-secondryColor text-12px capitalize font-normal text-nowrap">
+            <p className="text-secondryColor text-11px md:text-12px lg:text-14px capitalize font-normal text-nowrap">
               Product Designer
             </p>
 

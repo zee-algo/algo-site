@@ -13,6 +13,7 @@ module.exports = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       colors: {
+        customOffWhiteBG:"#F8F8F8", 
         primaryColor: "#1FDBA2", //green
         secondryColor: "#444444", //normal main black
         customWhite: "#FFFFFF",
@@ -37,6 +38,7 @@ module.exports = {
         "26px": "26px",
         "28px": "28px",
         "38px": "38px",
+        "95px": "95px"
       },
 
       fontWeight: {

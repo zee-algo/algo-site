@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-const Footer= () => {
+const Footer = () => {
   return (
     <>
       <footer className="footer-section">
@@ -64,7 +64,7 @@ const Footer= () => {
                   <li>
                     <a
                       href="#"
-                      class="text-gray-700 transition hover:opacity-75"
+                      class="text-12px md:text-14px lg:text-16px font-normal text-secondryColor transition hover:opacity-75"
                     >
                       Cyber Security
                     </a>
@@ -73,7 +73,7 @@ const Footer= () => {
                   <li>
                     <a
                       href="#"
-                      class="text-gray-700 transition hover:opacity-75"
+                      class="text-12px md:text-14px lg:text-16px font-normal text-secondryColor transition hover:opacity-75"
                     >
                       Cloud Computing
                     </a>
@@ -82,7 +82,7 @@ const Footer= () => {
                   <li>
                     <a
                       href="#"
-                      class="text-gray-700 transition hover:opacity-75"
+                      class="text-12px md:text-14px lg:text-16px font-normal text-secondryColor transition hover:opacity-75"
                     >
                       Managed IT
                     </a>
@@ -91,7 +91,7 @@ const Footer= () => {
                   <li>
                     <a
                       href="#"
-                      class="text-gray-700 transition hover:opacity-75"
+                      class="text-12px md:text-14px lg:text-16px font-normal text-secondryColor transition hover:opacity-75"
                     >
                       IT Support
                     </a>
@@ -105,7 +105,7 @@ const Footer= () => {
                   <li>
                     <a
                       href="#"
-                      class="text-gray-700 transition hover:opacity-75"
+                      class="text-12px md:text-14px lg:text-16px font-normal text-secondryColor transition hover:opacity-75"
                     >
                       About Us
                     </a>
@@ -114,7 +114,7 @@ const Footer= () => {
                   <li>
                     <a
                       href="#"
-                      class="text-gray-700 transition hover:opacity-75"
+                      class="text-12px md:text-14px lg:text-16px font-normal text-secondryColor transition hover:opacity-75"
                     >
                       Meet Our Team
                     </a>
@@ -123,7 +123,7 @@ const Footer= () => {
                   <li>
                     <a
                       href="#"
-                      class="text-gray-700 transition hover:opacity-75"
+                      class="text-12px md:text-14px lg:text-16px font-normal text-secondryColor transition hover:opacity-75"
                     >
                       News & Media
                     </a>
@@ -132,7 +132,7 @@ const Footer= () => {
                   <li>
                     <a
                       href="#"
-                      class="text-gray-700 transition hover:opacity-75"
+                      class="text-12px md:text-14px lg:text-16px font-normal text-secondryColor transition hover:opacity-75"
                     >
                       Case Studies
                     </a>
@@ -140,7 +140,7 @@ const Footer= () => {
                   <li>
                     <a
                       href="#"
-                      class="text-gray-700 transition hover:opacity-75"
+                      class="text-12px md:text-14px lg:text-16px font-normal text-secondryColor transition hover:opacity-75"
                     >
                       locations
                     </a>
@@ -155,7 +155,7 @@ const Footer= () => {
                   <li>
                     <a
                       href="#"
-                      class="text-gray-700 transition hover:opacity-75"
+                      class="text-12px md:text-14px lg:text-16px font-normal text-secondryColor transition hover:opacity-75"
                     >
                       Phone: +92 42 35817113
                     </a>
@@ -164,7 +164,7 @@ const Footer= () => {
                   <li>
                     <a
                       href="#"
-                      class="text-gray-700 transition hover:opacity-75"
+                      class="text-12px md:text-14px lg:text-16px font-normal text-secondryColor transition hover:opacity-75"
                     >
                       Email: Info@algopublic.com
                     </a>
@@ -189,6 +189,6 @@ const Footer= () => {
       </footer>
     </>
   );
-}
+};
 
 export default Footer;

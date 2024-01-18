@@ -5,12 +5,12 @@ import BlogCard from "../components/Cards/BlogCard";
 import TestimonialsCard from "../components/Cards/TestimonialsCard";
 import Heading from "../components/Heading";
 import OurWorkPortfolioCard from "../components/Cards/OurWorkPortfolioCard";
-import SubscriptionCard from "../components/Cards/SubscriptionCard";
+import Subscription from "../components/Cards/SubscriptionCard";
 import Footer from "../components/Cards/Footer";
 import Counter from "../components/Counter";
 import Explore from "../components/Explore";
 import GetInTouch from "../components/GetInTouch";
-
+import HeroSection from "../components/HeroSection";
 export default function Home() {
   return (
     <>
@@ -22,44 +22,29 @@ export default function Home() {
       </header>
 
       {/* --------------------- */}
+      {/*--- Hero section --- */}
+      {/*---------------------- */}
+      <HeroSection />
+
+      {/* --------------------- */}
       {/*--- company subscriptions --- */}
       {/*---------------------- */}
 
-      <div className="py-10 px-4">
-        <section className="company-subscription py-10">
-          <div className="max-w-screen-xl mx-auto">
-            <div className="grid grid-cols-2 lg:grid-cols-4 gap-10">
-              {[1, 2, 3, 4].map((value , index) => {
-                console.log(index)
-                return (
-                  <div key={index}  >
-                    <SubscriptionCard  index = {index}/>
-                  </div>
-                );
-              })}
-            </div>
-          </div>
-        </section>
-      </div>
+      <Subscription />
 
-
- {/* --------------------- */}
+      {/* --------------------- */}
       {/*--- Counter Section --- */}
       {/*---------------------- */}
+      <div className="py-10">
+        <Counter />
+      </div>
 
-<Counter/>
-
- {/* --------------------- */}
+      {/* --------------------- */}
       {/*--- Explore Section --- */}
       {/*---------------------- */}
-
-      <Explore/>
-
-
-
-
-
-
+      <div className="py-10">
+        <Explore />
+      </div>
 
       {/* --------------------- */}
       {/*--- what we do section --- */}
@@ -87,7 +72,7 @@ export default function Home() {
 
             <div className="grid grid-1 flex items-center justify-center">
               <div className="">
-                <Image src="/CenterImg.png" alt="" width={100} height={100} />
+                <Image src="/CenterImg.png" alt="" width={400} height={400} />
               </div>
             </div>
 
@@ -150,28 +135,13 @@ export default function Home() {
       {/*--- Blog Section --- */}
       {/*---------------------- */}
 
-      <section className="Blog-section py-10 px-4">
-        <div className="max-w-screen-xl mx-auto">
-          <div className="grid grid-1">
-            <Heading heading={"Blog"} title={"News & Articles"} />
-          </div>
-          <div className="grid grid-cols-2 md:grid:cols-2 lg:grid-cols-3 gap-5">
-            {[1, 2, 3].map((value) => (
-              <div key={value}>
-                <BlogCard key={value} />
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+      <BlogCard />
 
- {/* --------------------- */}
+      {/* --------------------- */}
       {/*--- GeTInTouchSection --- */}
       {/*---------------------- */}
 
-  <GetInTouch/>
-
-
+      <GetInTouch />
 
       {/* --------------------- */}
       {/*--- Footer Section --- */}
