@@ -11,6 +11,7 @@ import Counter from "../components/Counter";
 import Explore from "../components/Explore";
 import GetInTouch from "../components/GetInTouch";
 import HeroSection from "../components/HeroSection";
+
 export default function Home() {
   return (
     <>
@@ -135,7 +136,7 @@ export default function Home() {
       {/*--- Blog Section --- */}
       {/*---------------------- */}
 
-      <BlogCard  />
+      <BlogCard />
 
       {/* --------------------- */}
       {/*--- GeTInTouchSection --- */}

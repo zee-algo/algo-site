@@ -16,11 +16,12 @@ module.exports = {
         customOffWhiteBG:"#F8F8F8", 
         primaryColor: "#1FDBA2", //green
         secondryColor: "#444444", //normal main black
-        customWhite: "#FFFFFF",
-        customBlack: "#000000",
-        customBlue: "#405BE6",
-        customOrange: "#EB5C30",
-        customYellow:"#F9D759"
+        customWhite: "#FFFFFF",  
+        customBlack: "#000000",  
+        customBlue: "#405BE6",  
+        customOrange: "#EB5C30",  
+        customYellow:"#F9D759",
+        customDarkBrown : '#6D6C6C',
       },
       fontSize: {
         "10px": "10px",
@@ -38,7 +39,9 @@ module.exports = {
         "26px": "26px",
         "28px": "28px",
         "38px": "38px",
-        "95px": "95px"
+        "44px": "44px",
+        "80px": "80px",
+        "95px": "95px",
       },
 
       fontWeight: {
